@@ -24,7 +24,7 @@ export default function App() {
   
   return (
     <div className="App">
-      <h1>lets beging the build</h1> 
+      <h1>lets us start building my portfolio</h1> 
     </div>
   );
 }
