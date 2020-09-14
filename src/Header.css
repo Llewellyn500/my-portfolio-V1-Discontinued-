@@ -7,14 +7,13 @@
     position: sticky;
     top: 0;
     z-index: 100;
-    text-align: center;
 }
 
 .header__logo {
-    width: 50px;
+    width: 55px;
     object-fit: contain;
     margin: 0 20px;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 .header__nav {
