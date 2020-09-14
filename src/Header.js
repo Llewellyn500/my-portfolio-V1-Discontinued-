@@ -9,19 +9,19 @@ function Header() {
         
         <div className="header__nav">
           <span className="header__navOption">Home</span>
-        <div>
+        </div>
         
         <div className="header__nav">
           <span className="header__navOption">About Me</span>
-        <div>
+        </div>
         
         <div className="header__nav">
           <span className="header__navOption">My Projects</span>
-        <div>
+        </div>
         
         <div className="header__nav">
           <span className="header__navOption">Contact Me</span>
-        <div>
+        </div>
       </div>
     );
 }
