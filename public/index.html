@@ -63,24 +63,6 @@
   margin-top: 20px;
 }
 </style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
-</script>
-
-<script type="text/javascript">
-  $(document).read(function(){
-    var counter = 0;
-    var c = 0;
-    var i = setInterval(function(){
-      $(".loader-container .loader h1").html(c + "%");
-      $(".loader-container .loader hr").css("width",c + "%");
-      counter++;
-      c++;
-      if (counter == 101){
-        clearInterval(i);
-      }
-    },50);
-  });
-</script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -103,5 +85,24 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+
+<script type="text/javascript">
+
+  $(document).read(function(){
+    var loader = 0;
+    var c = 0;
+    var i = setInterval(function(){
+      $(".loader-container .loader h1").html(c = "%");
+      $(".loader-container .loader hr").css("width",c = "%");
+      loader++;
+      c++;
+      if (loader == 101) {
+        clearInterval(i);
+      }
+    },50);
+  });
+</script>
   </body>
 </html>
