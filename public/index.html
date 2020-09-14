@@ -43,18 +43,18 @@
 	align-items: center;
 	background-color: #0d0d0d;
 }
-.loader-container {
+.loader-container .loader {
 	width: 80%;
-	position: relative;
+	position: absolute;
 	text-align: center;
 }
-.loader-container p{
+.loader-container .loader p{
   font-family: 'Bubblegum Sans', cursive;
 	font-size: 40px;
 	color: #2196F3;
 	text-transform: uppercase;
 }
-.loader-container img{
+.loader-container .loader img{
   width: 30%;
     height: auto;
 }
@@ -67,7 +67,8 @@
        <div id="particles-js">
         <script type="text/javascript" src="./particles.js"></script>
       <script type="text/javascript" src="./app.js"></script>
-      <!-- <div class="loader"> -->
+      </div>
+       <div class="loader">
     <img src="./logo192.png">
 		<p>Please wait page is loading</p>
 		</div>
