@@ -7,10 +7,11 @@
     position: sticky;
     top: 0;
     z-index: 100;
+    text-align: center;
 }
 
 .header__logo {
-    width: 60px;
+    width: 50px;
     object-fit: contain;
     margin: 0 20px;
     margin-top: 10px;
@@ -19,7 +20,7 @@
 .header__nav {
     display: flex;
     justify-content: space-evenly;
-    text-align: center;
+    
 }
 
 .header__navOption {
