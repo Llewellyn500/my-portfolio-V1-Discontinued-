@@ -19,6 +19,7 @@
 .header__nav {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
 }
 
 .header__navOption {
