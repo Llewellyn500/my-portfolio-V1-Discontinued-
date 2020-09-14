@@ -6,7 +6,7 @@ function Header() {
   return(
       <div className="header">
       
-        <img className="header__logo" src={logo.png} alt="My logo" />
+        <img className="header__logo" src={Logo} alt="My logo" />
         
         <div className="header__nav">
           <span className="header__navOption">Home</span>
