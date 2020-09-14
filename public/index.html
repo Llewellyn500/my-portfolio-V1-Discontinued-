@@ -37,22 +37,6 @@
 		<hr/>
 		</div>
     </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript">
-  $(document).read(function(){
-    var counter = 0;
-    var c = 0;
-    var i = setInterval(function(){
-      $(".loader-container .loader h1").html(c + "%");
-      $(".loader-container .loader hr").css("width",c + "%");
-      counter++;
-      c++;
-      if (counter == 101){
-        clearInterval(i);
-      }
-    },50);
-  });
-</script>
 <style type="text/css">
 * {
   margin: 0;
@@ -91,6 +75,24 @@
   margin-top: 20px;
 }
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+
+<script type="text/javascript">
+  $(document).read(function(){
+    var counter = 0;
+    var c = 0;
+    var i = setInterval(function(){
+      $(".loader-container .loader h1").html(c + "%");
+      $(".loader-container .loader hr").css("width",c + "%");
+      counter++;
+      c++;
+      if (counter == 101){
+        clearInterval(i);
+      }
+    },50);
+  });
+</script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
