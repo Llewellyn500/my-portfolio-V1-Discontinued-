@@ -14,9 +14,9 @@ function Header () {
         <li><a href="/">About Me</a></li>
         <li><a href="/">Projects</a></li>
         <li><a href="/">Contact Me</a></li>
-        <li className="close" onClick={this.menuToggle}>X</li>
+        <li className="close">X</li>
       </ul>
-      <div className="menu" onClick={this.menuToggle}>Menu</div>
+      <div className="menu">Menu</div>
       </div>
     );
 }
