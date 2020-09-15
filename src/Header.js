@@ -10,10 +10,10 @@ function Header () {
   menuToggle = () =>{
     this.setState({toggle: !this.state.toggle});
   };
-  return(
-    const toggle = () => {
+   const toggle = () => {
       this.state;
     };
+  return(
       <div className="header">
     
         <img className="header__logo" src={Logo} alt="My logo" />
