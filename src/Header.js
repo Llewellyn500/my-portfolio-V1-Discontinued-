@@ -12,7 +12,7 @@ function Header() {
   }
   
   return(
-    set {toggle} = this.state;
+    set, toggle= this.state;
       <div className="header">
     
         <img className="header__logo" src={Logo} alt="My logo" />
