@@ -1,18 +1,19 @@
-import React from "react";
+import React, { Component } from "react";
 import "./Header.css";
 import Logo from "./logo.png";
 
-function Header () {
+
+export class Header extends Component {
+  
   state = {
     toggle: false
-  };
+  }
   
   menuToggle = () =>{
     this.setState({toggle: !this.state.toggle});
-  };
-   const toggle = () => {
-      this.state;
-    };
+  }
+  render() {
+    const {toggle} = this.state;
   return(
       <div className="header">
     
@@ -29,5 +30,5 @@ function Header () {
       </div>
     );
 }
-
+}
 export default Header;
