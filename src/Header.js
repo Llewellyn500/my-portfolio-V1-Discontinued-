@@ -2,15 +2,14 @@ import React from "react";
 import "./Header.css";
 import Logo from "./logo.png";
 
-function Header() {
+function Header () {
   state = {
     toggle: false
-  }
+  };
   
   menuToggle = () =>{
-    this.setState({toggle: !this.state.toggle})
-  }
-  
+    this.setState({toggle: !this.state.toggle});
+  };
   return(
     const {toggle} = this.state;
       <div className="header">
