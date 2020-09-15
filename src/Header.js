@@ -8,29 +8,14 @@ function Header() {
     
         <img className="header__logo" src={Logo} alt="My logo" />
       
-      
-      
-        <div className="header__nav">
-          <span className="header__navOption">Home</span>
-        </div>
-     
-      
-      
-        <div className="header__nav">
-          <span className="header__navOption">About Me</span>
-        </div>
-     
-     
-        <div className="header__nav">
-          <span className="header__navOption">My Projects</span>
-        </div>
-    
-      
-      
-        <div className="header__nav">
-          <span className="header__navOption">Contact Me</span>
-        </div>
-      
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About Me</a></li>
+        <li><a href="/">Projects</a></li>
+        <li><a href="/">Contact Me</a></li>
+        <li className="close">X</li>
+      </ul>
+      <div className="menu">Menu</div>
       </div>
     );
 }
