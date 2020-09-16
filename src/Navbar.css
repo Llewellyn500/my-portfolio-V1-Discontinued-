@@ -10,12 +10,16 @@ a {
     justify-content: space-around;
     align-items: center;
     background-color: #0f0f0f;
-    position: sticky;
 }
 
 .navbar__logo{
-  width: 100px;
+  width: 70px;
     object-fit: contain;
     margin: 0 20px;
     margin-top: 10px;
+}
+.nav .navbar__links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
 }
