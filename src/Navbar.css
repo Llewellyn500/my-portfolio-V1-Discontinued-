@@ -42,7 +42,5 @@ nav .nav__links a:hover{
 }
 
 @media all and (max-width: 768px) {
-  body {
-    display: none;
-  }
+  
 }
