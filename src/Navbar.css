@@ -33,7 +33,6 @@
 .nav__links {
     display: flex;
     justify-content: space-evenly;
-     display: flex;
     flex-direction: column;
     margin-left: 10px;
     margin-right: 10px;
@@ -41,8 +40,10 @@
     background-color: transparent;
 }
 
+.burger {
+  color: white;
+}
+
 @media (max-width: 768px) {
-  body {
-    display: none;
-  }
+  
 }
