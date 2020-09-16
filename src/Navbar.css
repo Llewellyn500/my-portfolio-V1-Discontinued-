@@ -3,7 +3,7 @@
     display: flex;
     flex: 1;
     align-items: center;
-    background-color: #131921;
+    background-color: #0f0f0f;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -30,7 +30,7 @@
 
 .nav__links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
      display: flex;
     flex-direction: column;
     margin-left: 10px;
