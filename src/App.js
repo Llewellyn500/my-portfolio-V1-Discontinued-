@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from "./Header";
+import Navbar from "./Navbar";
 import './App.css';
 
 export default function App() {
@@ -26,7 +26,7 @@ export default function App() {
   
   return (
     <div className="App">
-      <Header />
+      <Navbar />
     </div>
   );
 }
