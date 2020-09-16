@@ -1,57 +1,84 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.header {
+    height: 60px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
-a {
-  text-decoration: none;
-}
-li {
-  text-decoration: none;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  min-height: 10vh;
-  align-items: center;
-  background-color: #0f0f0f;
-  color: #fff;
-}
-nav .logo {
-  width: 80px;
+.header__logo {
+    width: 100px;
     object-fit: contain;
     margin: 0 20px;
     margin-top: 10px;
 }
 
-nav .nav__links {
-  display: flex;
-  justify-content: space-around;
-  width: 30%;
+.header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
 }
 
-nav .nav__links a{
-  font-size: 18px;
-  font-weight: normal;
+.header__searchInput {
+    width: 100%;
+    height: 12px;
+    border: none;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
-nav .nav__links a:hover{
-  border-bottom: 1px solid #fff;
+
+.header__searchIcon {
+    padding: 5px;
+    height: 22px !important;
+    background-color: #cd9042;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.5s;
+}
+.header__searchIcon:hover {
+    cursor: pointer;
+    background-color: #ffb557;
+    color: white;
+}
+
+.header__optionLineOne {
+    text-decoration: none;
+    font-size: 10px;
+    transition: 0.5s;
+    
+}
+
+.header__optionLineTwo {
+  text-decoration: none;
+    font-size: 13px;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.header__optionLineOne:hover {
   cursor: pointer;
+  color: #cd9042;
 }
 
-nav .burger {
-  font-size: 30px;
-  display:none;
+.header__optionLineTwo:hover {
+  cursor: pointer;
+  color: #cd9042;
 }
 
-@media (max-width: 768px) {
-   nav .burger {
-     display: block;
-   }
-   nav .nav__links {
-     position: absolute;
-     display: block;
-   }
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
 }
