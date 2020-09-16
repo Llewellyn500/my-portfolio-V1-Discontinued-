@@ -14,6 +14,7 @@
     object-fit: contain;
     margin: 0 20px;
     margin-top: 8px;
+    background-color: transparent;
 }
 
 .nav__option {
