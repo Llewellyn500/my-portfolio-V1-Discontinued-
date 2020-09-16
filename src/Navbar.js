@@ -28,6 +28,7 @@ function Navbar() {
          <div className="nav__links">
           <span className="nav__option">Contact Me</span>
         </div>
+        <i class="fas fa-bars"></i>
     </div>
     );
 }
