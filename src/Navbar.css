@@ -43,8 +43,15 @@ nav .nav__links a:hover{
 
 nav .burger {
   font-size: 30px;
+  display:none;
 }
 
 @media all and (max-width: 768px) {
-  
+   nav .burger {
+     display: block;
+   }
+   nav .nav__links {
+     position: absolute;
+     display: block;
+   }
 }
