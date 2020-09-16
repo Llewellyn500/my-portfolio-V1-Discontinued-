@@ -43,7 +43,7 @@
 .burger {
   color: white;
   font-size: 30px;
-  display: hidden;
+  visibility: hidden;
 }
 
 @media (max-width: 768px) {
