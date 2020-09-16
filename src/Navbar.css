@@ -46,7 +46,7 @@ nav .burger {
   display:none;
 }
 
-@media all and (max-width: 768px) {
+@media (max-width: 768px) {
    nav .burger {
      display: block;
    }
