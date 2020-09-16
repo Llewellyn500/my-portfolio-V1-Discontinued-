@@ -4,13 +4,13 @@ import "./Navbar.css";
 
 function Navbar() {
   return(
-    <div className="nav">
+    <div>
       <nav>
-        <div>
-          <img className="navbar__logo" src={Logo} alt="My logo" />
+        <div className="logo">
+          <img src={Logo} alt="My logo" />
         </div>
         
-        <ul className="navbar__links">
+        <ul className="nav__links">
           <li><a>Home</a></li>
           <li><a>About Me</a></li>
           <li><a>Projects</a></li>
