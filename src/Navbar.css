@@ -48,7 +48,7 @@
 
 @media (max-width: 768px) {
   .burger {
-    margin-right: 30px;
+    align-self: flex-end;
     visibility: visible;
   }
   .nav__option {
