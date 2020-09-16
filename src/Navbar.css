@@ -41,7 +41,7 @@
 }
 
 .burger {
-  display: flex;
+  display: none;
   justify-content: space-evenly;
   flex-direction: column;
   color: white;
