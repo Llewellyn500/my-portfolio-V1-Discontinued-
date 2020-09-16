@@ -41,11 +41,9 @@
 }
 
 .burger {
-  display: none;
-  justify-content: space-evenly;
-  flex-direction: column;
   color: white;
   font-size: 30px;
+  display: none;
 }
 
 @media (max-width: 768px) {
