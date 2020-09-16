@@ -41,6 +41,10 @@ nav .nav__links a:hover{
   cursor: pointer;
 }
 
+nav .burger {
+  font-size: 30px;
+}
+
 @media all and (max-width: 768px) {
   
 }
