@@ -36,3 +36,13 @@ nav .nav__links a{
   font-size: 18px;
   font-weight: normal;
 }
+nav .nav__links a:hover{
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+}
+
+@media all and (max-width: 768px) {
+  body {
+    display: none;
+  }
+}
