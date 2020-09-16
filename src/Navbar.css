@@ -3,3 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  min-height: 10vh;
+  align-items: center;
+  background-color: #0f0f0f;
+  color: #fff;
+}
+nav .logo {
+  object-fit: contain;
+  height: 10px;
+}
+
+nav .nav__links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+nav .nav__links a{
+  font-size: 18px;
+  font-weight: normal;
+}
