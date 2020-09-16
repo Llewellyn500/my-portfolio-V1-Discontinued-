@@ -5,7 +5,7 @@ a {
   text-decoration: none;
 }
 .nav {
-  min-height: 60px;
+  min-height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -13,7 +13,7 @@ a {
     Color: #fff;
 }
 
-.navbar__logo{
+.navbar__logo {
   width: 70px;
     object-fit: contain;
     margin: 0 20px;
