@@ -10,6 +10,7 @@ a {
     justify-content: space-around;
     align-items: center;
     background-color: #0f0f0f;
+    Color: #fff;
 }
 
 .navbar__logo{
@@ -21,5 +22,10 @@ a {
 .nav .navbar__links {
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 32%;
+}
+.nav .navbar__links a {
+  font-size: 18px;
+  font-weight: normal;
+  
 }
