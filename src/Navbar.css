@@ -3,35 +3,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-li {
-  list-style-type: none;
-}
-a {
-  text-decoration: none;
-}
-.nav {
-  min-height: 10vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #0f0f0f;
-    Color: #fff;
-}
-
-.navbar__logo {
-  width: 70px;
-    object-fit: contain;
-    margin: 0 20px;
-    margin-top: 10px;
-}
-.nav .navbar__links {
-  display: flex;
-  justify-content: space-around;
-  width: 32%;
-}
-.nav .navbar__links a {
-  font-size: 18px;
-  font-weight: normal;
-  
-}
