@@ -14,6 +14,7 @@ function Navbar() {
           <li><a>Projects</a></li>
           <li><a>Contact Me</a></li>
         </ul>
+        <i class="fas fa-bars"></i>
       </nav>
     </div>
     );
