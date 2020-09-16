@@ -13,6 +13,18 @@ function Navbar() {
         <div className="nav__links">
           <span className="nav__option">Home</span>
         </div>
+        
+         <div className="nav__links">
+          <span className="nav__option">About Me</span>
+        </div>
+        
+         <div className="nav__links">
+          <span className="nav__option">Projects</span>
+        </div>
+        
+         <div className="nav__links">
+          <span className="nav__option">Contact Me</span>
+        </div>
     </div>
     );
 }
