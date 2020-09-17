@@ -15,7 +15,7 @@ function Navbar() {
             src={Logo} 
             alt="My logo" 
         />
-        <ul className="nav__links">
+        <ul>
        <li><a href="#">Home</a></li>
        <li><a href="#">About me</a></li>
        <li><a href="#">Projects</a></li>
