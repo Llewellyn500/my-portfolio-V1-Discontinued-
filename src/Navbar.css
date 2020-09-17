@@ -37,7 +37,6 @@ span {
   padding: 5px 0;
 }
 span:before{
-  top: 2px;
   position: absolute;
   content: '';
   left: 0;
@@ -56,13 +55,6 @@ span:hover:before {
 .nav__option:hover {
   cursor: pointer;
   color: #2196F3;
-}
-
-.nav__links {
-    float: right;
-    margin-right: 25px;
-    color: white;
-    background-color: transparent;
 }
 
 .burger {
