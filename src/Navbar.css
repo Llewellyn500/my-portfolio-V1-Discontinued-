@@ -15,7 +15,7 @@ body{
   box-shadow: 5px 10px 8px 10px #000;
 }
 .logo{
-    left: 12%;
+    left: 20px;
     width: 100px;
     object-fit: contain;
     margin: 0 20px;
