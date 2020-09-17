@@ -64,6 +64,9 @@ label #cancel {
   cursor: pointer;
   display: none;
 }
+#check {
+  display: none;
+}
 .nav__option:hover {
   cursor: pointer;
   color: #2196F3;
