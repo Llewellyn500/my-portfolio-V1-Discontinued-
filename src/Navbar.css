@@ -59,6 +59,10 @@ label #cancel {
   color: white;
   font-size: 30px;
   float: right;
+  line-height: 70px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
 }
 .nav__option:hover {
   cursor: pointer;
