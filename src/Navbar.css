@@ -15,11 +15,12 @@ body{
   box-shadow: 5px 10px 8px 10px #000;
 }
 .logo{
-    left: 20px;
-    width: 100px;
+    position: absolute;
+    left: 5%;
+    width: 70px;
     object-fit: contain;
-    margin: 0 20px;
-    margin-top: 10px;
+    top: 4px;
+    background-color: transparent;
 }
 .nav ul{
   float: right;
