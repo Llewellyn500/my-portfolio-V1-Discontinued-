@@ -16,10 +16,10 @@ function Navbar() {
             alt="My logo" 
         />
         <ul className="nav__links">
-       <li><a>Home</a></li>
-       <li><a>About me</a></li>
-       <li><a>Projects</a></li>
-       <li><a>Contact Me</a></li>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">About me</a></li>
+       <li><a href="#">Projects</a></li>
+       <li><a href="#">Contact Me</a></li>
       </ul>
     </div>
     );
