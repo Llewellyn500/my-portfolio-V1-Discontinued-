@@ -20,7 +20,7 @@ function Navbar() {
         </div>
         
           <div className="nav__links">
-          <span className="nav__option">About Me</span>
+          <span className="nav__option">About  Me</span>
         </div>
         
         <div className="nav__links">
