@@ -16,8 +16,8 @@ body{
 }
 .logo{
     position: absolute;
-    left: 3%;
-    width: 90px;
+    left: 5%;
+    width: 70px;
     object-fit: contain;
     top: 4px;
     background-color: transparent;
@@ -56,8 +56,13 @@ a:hover{
 }
 @media (max-width: 952px){
   .logo{
-    font-size: 30px;
-    padding-left: 50px;
+    position: absolute;
+    left: 5%;
+    width: 70px;
+    object-fit: contain;
+    top: 4px;
+    background-color: transparent;
+}
   }
   .nav ul li a{
     font-size: 16px;
