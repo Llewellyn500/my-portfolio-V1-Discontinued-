@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 .nav{
+  position: sticky;
   background: #0f0f0f;
   height: 80px;
   width: 100%;
