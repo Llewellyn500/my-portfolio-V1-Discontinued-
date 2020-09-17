@@ -28,11 +28,13 @@
     display: inline-block;
     line-height: 70px;
     margin: 0 15px;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 800;
     transition: 0.5s;
 }
-
+span {
+  position: relative;
+}
 .nav__option:hover {
   cursor: pointer;
   color: #2196F3;
