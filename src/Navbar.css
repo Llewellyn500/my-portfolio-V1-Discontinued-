@@ -41,7 +41,7 @@ span:before{
   content: '';
   left: 0;
   bottom: 0;
-  height: 3px;
+  height: 1px;
   width: 100%;
   background: white;
   transform: scaleX(0);
