@@ -60,7 +60,7 @@
 
 @media (max-width: 952px){
   .logo{
-    padding-left: 50px;
+    left: 3%;
   }
   nav ul li a{
     font-size: 16px;
