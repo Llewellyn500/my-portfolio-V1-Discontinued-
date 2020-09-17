@@ -16,22 +16,12 @@ function Navbar() {
             src={Logo} 
             alt="My logo" 
         />
-        
-         <div className="nav__links">
-          <span className="nav__option">Contact  Me</span>
-        </div>
-        
-        <div className="nav__links">
-          <span className="nav__option">Projects</span>
-        </div>
-        
-          <div className="nav__links">
-          <span className="nav__option">About  Me</span>
-        </div>
-        
-        <div className="nav__links">
-          <span className="nav__option">Home</span>
-        </div>
+        <ul className="nav__links">
+       <li><a>Home</a></li>
+       <li><a>About me</a></li>
+       <li><a>Projects</a></li>
+       <li><a>Contact Me</a></li>
+      </ul>
     </div>
     );
 }
