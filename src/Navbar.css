@@ -10,7 +10,6 @@
     background-color: #0f0f0f;
     position: sticky;
     top: 0;
-    z-index: 100;
     box-shadow: 0 10px 8px #000;
 }
 
@@ -34,6 +33,7 @@
 }
 span {
   position: relative;
+  transform: uppercase;
 }
 .nav__option:hover {
   cursor: pointer;
