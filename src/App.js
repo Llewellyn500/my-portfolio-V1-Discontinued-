@@ -34,6 +34,29 @@ export default function App() {
       <Home />
       <Home />
       <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
       
     </div>
   );
