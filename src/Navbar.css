@@ -27,7 +27,6 @@
     display: inline-block;
     line-height: 70px;
     margin: 0 15px;
-    margin-bottom: 0;
     font-size: 18px;
     font-weight: 800;
     transition: 0.5s;
@@ -40,6 +39,7 @@ span {
 span:before{
   position: absolute;
   content: '';
+  top:1px;
   left: 0;
   bottom: 0;
   margin-top: 0;
