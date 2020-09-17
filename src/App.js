@@ -1,5 +1,6 @@
 import React, {useState,useEffect} from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./Home";
 import Navbar from "./Navbar";
 import './App.css';
 
@@ -27,6 +28,13 @@ export default function App() {
   return (
     <div className="App">
       <Navbar />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      
     </div>
   );
 }
