@@ -5,6 +5,12 @@ import "./Navbar.css";
 function Navbar() {
   return(
     <div className="nav">
+    <input type="checkbox" id="check">
+      <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+      </label>
+    
           <img
             className="logo" 
             src={Logo} 
@@ -26,8 +32,6 @@ function Navbar() {
         <div className="nav__links">
           <span className="nav__option">Home</span>
         </div>
-        
-        <i className="fas fa-bars burger"></i>
     </div>
     );
 }
