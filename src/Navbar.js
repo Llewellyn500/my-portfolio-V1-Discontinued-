@@ -6,9 +6,8 @@ function Navbar() {
   return(
     <div className="nav">
     <input type="checkbox" id="check"/>
-      <label for="check">
-        <i class="fas fa-bars" id="btn"></i>
-        <i class="fas fa-times" id="cancel"></i>
+      <label for="check" class="btn">
+        <i class="fas fa-bars"></i>
       </label>
     
           <img
