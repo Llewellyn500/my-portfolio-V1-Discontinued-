@@ -12,6 +12,7 @@ body{
   background: #0082e6;
   height: 80px;
   width: 100%;
+  box-shadow: 5px 10px 8px 10px #000;
 }
 .logo{
   object-fit: contain;
