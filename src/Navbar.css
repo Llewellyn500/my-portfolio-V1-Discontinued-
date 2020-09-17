@@ -9,7 +9,7 @@
   background: #0f0f0f;
   height: 80px;
   width: 100%;
-  box-shadow: 5px 10px 8px 10px #000;
+  box-shadow: 0 10px 8px 10px #000;
 }
 .logo{
     position: absolute;
