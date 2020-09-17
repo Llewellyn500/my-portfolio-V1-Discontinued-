@@ -57,6 +57,13 @@ span:hover:before {
   color: #2196F3;
 }
 
+.nav__links {
+    float: right;
+    margin-right: 25px;
+    color: white;
+    background-color: transparent;
+}
+
 .burger {
   color: white;
   font-size: 30px;
