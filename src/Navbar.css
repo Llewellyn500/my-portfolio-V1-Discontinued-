@@ -11,6 +11,8 @@
 }
 
 .logo {
+    position: absolute;
+    left: 12%;
     width: 60px;
     object-fit: contain;
     margin: 0 20px;
