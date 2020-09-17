@@ -34,7 +34,7 @@ body{
   border-radius: 3px;
   text-transform: uppercase;
 }
-a.active,a:hover{
+a:hover{
   background: #1b9bff;
   transition: .5s;
 }
