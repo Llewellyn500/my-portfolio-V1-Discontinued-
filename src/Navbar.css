@@ -34,7 +34,7 @@
 span {
   position: relative;
   text-transform: uppercase;
-  padding: 5px 0;
+ /* padding: 5px 0;*/
 }
 /*span:before{
   position: absolute;
