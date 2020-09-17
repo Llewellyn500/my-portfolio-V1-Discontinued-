@@ -5,9 +5,9 @@
   list-style: none;
   box-sizing: border-box;
 }
-body{
+/*body{
   font-family: montserrat;
-}
+}*/
 .nav{
   background: #0f0f0f;
   height: 80px;
@@ -39,7 +39,7 @@ body{
   text-transform: uppercase;
 }
 a:hover{
-  background: #1b9bff;
+  background: #2196F3;
   transition: .5s;
 }
 .btn{
@@ -50,6 +50,9 @@ a:hover{
   margin-right: 40px;
   cursor: pointer;
   display: none;
+}
+.btn:hover {
+ color: #2196F3; 
 }
 #check{
   display: none;
