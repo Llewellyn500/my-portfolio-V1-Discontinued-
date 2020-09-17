@@ -58,12 +58,14 @@
   display: none;
 }
 
-@media (max-width: 1118px) {
-.logo{
-  left: 8%;
+@media (max-width: 952px){
+  .logo{
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
 }
-}
-
 @media (max-width: 944px) {
 .logo {
   left: 6%;
