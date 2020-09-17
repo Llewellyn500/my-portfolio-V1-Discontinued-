@@ -54,6 +54,12 @@ span:hover:before {
   transform: scaleX(1);
   transform-origin: left;
 }*/
+label #btn,
+label #cancel {
+  color: white;
+  font-size: 30px;
+  float: right;
+}
 .nav__option:hover {
   cursor: pointer;
   color: #2196F3;
