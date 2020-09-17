@@ -17,7 +17,7 @@ body{
 .logo{
     position: absolute;
     left: 5%;
-    width: 70px;
+    width: 80px;
     object-fit: contain;
     top: 4px;
     background-color: transparent;
@@ -58,7 +58,7 @@ a:hover{
   .logo{
     position: absolute;
     left: 5%;
-    width: 70px;
+    width: 80px;
     object-fit: contain;
     top: 4px;
     background-color: transparent;
