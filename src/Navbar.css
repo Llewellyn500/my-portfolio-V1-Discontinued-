@@ -99,4 +99,17 @@ label #cancel {
   top: 4px;
   width: 70px;
 }
+span {
+  font-size: 17px;
+}
+}
+
+
+@media (max-width: 860px) {
+label #btn{
+  display: block;
+}
+span {
+  font-size: 17px;
+}
 }
