@@ -87,12 +87,16 @@ label #cancel {
   visibility: hidden;
 }
 
-@media (max-width: 768px) {
-  .burger {
-    margin-right: 30px;
-    visibility: visible;
-  }
-  .nav__option {
-    visibility: hidden;
-  }
+@media (max-width: 1118px) {
+.logo{
+  left: 8%;
+}
+}
+
+@media (max-width: 944px) {
+.logo {
+  left: 6%;
+  top: 4px;
+  width: 70px;
+}
 }
