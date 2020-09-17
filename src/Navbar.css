@@ -36,10 +36,9 @@ span {
   text-transform: uppercase;
 
 }
-span:before{
+/*span:before{
   position: absolute;
   content: '';
-  top:1px;
   left: 0;
   bottom: 0;
   margin-top: 0;
@@ -54,7 +53,7 @@ span:before{
 span:hover:before {
   transform: scaleX(1);
   transform-origin: left;
-}
+}*/
 .nav__option:hover {
   cursor: pointer;
   color: #2196F3;
