@@ -5,9 +5,6 @@
   list-style: none;
   box-sizing: border-box;
 }
-/*body{
-  font-family: montserrat;
-}*/
 .nav{
   background: #0f0f0f;
   height: 80px;
@@ -33,6 +30,7 @@
 }
 .nav ul li a{
   color: white;
+  font-weight: 700;
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
@@ -40,7 +38,7 @@
 }
 a:hover{
   background: #2196F3;
-  transition: .5s;
+  transition: 0.5s;
 }
 .btn{
   font-size: 30px;
@@ -49,6 +47,7 @@ a:hover{
   line-height: 80px;
   margin-right: 40px;
   cursor: pointer;
+  transition: 0.5s;
   display: none;
 }
 .btn:hover {
