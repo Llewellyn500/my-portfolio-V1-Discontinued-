@@ -60,6 +60,8 @@ span:hover:before {
 }
 
 .nav__links {
+  bottom: 0;
+  top: 0;
     float: right;
     margin-right: 25px;
     color: white;
