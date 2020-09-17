@@ -28,11 +28,13 @@
 .nav ul{
   float: right;
   margin-right: 20px;
+  background-color: transparent;
 }
 .nav ul li{
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
+  background-color: transparent;
 }
 .nav ul li a{
   color: white;
@@ -40,6 +42,7 @@
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
+  background-color: transparent;
 }
 .btn{
   font-size: 30px;
