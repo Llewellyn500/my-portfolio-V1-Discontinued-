@@ -71,10 +71,10 @@ a:hover{
   }
 }
 @media (max-width: 858px){
-  .nav .btn i{
+.btn {
     display: block;
   }
-#click:checked ~ .btn i:before {
+#check:checked ~ .btn i:before {
     content: "\f00d";
   } 
   ul{
