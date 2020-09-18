@@ -76,6 +76,7 @@ a:hover{
   }
 #check:checked ~ .btn i:before {
     content: "\f00d";
+    transition: 0.5s;
   } 
   ul{
     position: fixed;
