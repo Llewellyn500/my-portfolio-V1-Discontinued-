@@ -4,7 +4,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 .nav{
   position: fixed;
@@ -12,7 +12,7 @@
   height: 80px;
   width: 100%;
   box-shadow: 0 10px 8px 10px #000;
-  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 .logo{
     position: absolute;
@@ -25,13 +25,13 @@
 .nav ul{
   float: right;
   margin-right: 20px;
-  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 .nav ul li{
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
-  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 .nav ul li a{
   color: white;
@@ -40,12 +40,12 @@
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
-  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 a:hover{
   background: #2196F3;
   transition: 0.5s;
-  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 .btn{
   font-size: 30px;
@@ -56,11 +56,11 @@ a:hover{
   cursor: pointer;
   transition: 0.5s;
   display: none;
-  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 .btn:hover {
  color: #2196F3; 
- outline: none;
+ -webkit-tap-highlight-color: transparent;
 }
 #check{
   display: none;
@@ -73,21 +73,21 @@ a:hover{
     object-fit: contain;
     top: 4px;
     background-color: transparent;
-    outline: none;
+    -webkit-tap-highlight-color: transparent;
   }
   .nav ul li a{
     font-size: 16px;
-    outline: none;
+    -webkit-tap-highlight-color: transparent;
   }
 }
 @media (max-width: 858px){
 .btn {
     display: block;
-    outline: none;
+    -webkit-tap-highlight-color: transparent;
   }
 #check:checked ~ .btn i:before {
     content: "\f00d";
-    outline: none;
+    -webkit-tap-highlight-color: transparent;
   } 
   ul{
     position: fixed;
@@ -98,20 +98,20 @@ a:hover{
     left: -100%;
     text-align: center;
     transition: all .5s;
-    outline: none;
+    -webkit-tap-highlight-color: transparent;
   }
   .nav ul li{
     display: block;
     margin: 50px 0;
     line-height: 30px;
-    outline: none;
+    -webkit-tap-highlight-color: transparent;
   }
   .nav ul li a{
     font-size: 20px;
-    outline: none;
+    -webkit-tap-highlight-color: transparent;
   }
   }
   #check:checked ~ ul{
     left: 0;
-    outline: none;
+    -webkit-tap-highlight-color: transparent;
   }
