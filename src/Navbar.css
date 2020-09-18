@@ -74,7 +74,7 @@ a:hover{
   .btn{
     display: block;
   }
-    #click:checked ~ .btn i:before {
+#click:checked ~ .btn i::before {
     content: "\f00d";
   } 
   ul{
