@@ -4,6 +4,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  outline: none;
 }
 .nav{
   position: fixed;
@@ -11,6 +12,7 @@
   height: 80px;
   width: 100%;
   box-shadow: 0 10px 8px 10px #000;
+  outline: none;
 }
 .logo{
     position: absolute;
@@ -43,6 +45,7 @@
 a:hover{
   background: #2196F3;
   transition: 0.5s;
+  outline: none;
 }
 .btn{
   font-size: 30px;
@@ -57,6 +60,7 @@ a:hover{
 }
 .btn:hover {
  color: #2196F3; 
+ outline: none;
 }
 #check{
   display: none;
@@ -79,6 +83,7 @@ a:hover{
 @media (max-width: 858px){
 .btn {
     display: block;
+    outline: none;
   }
 #check:checked ~ .btn i:before {
     content: "\f00d";
@@ -93,16 +98,20 @@ a:hover{
     left: -100%;
     text-align: center;
     transition: all .5s;
+    outline: none;
   }
   .nav ul li{
     display: block;
     margin: 50px 0;
     line-height: 30px;
+    outline: none;
   }
   .nav ul li a{
     font-size: 20px;
+    outline: none;
   }
   }
   #check:checked ~ ul{
     left: 0;
+    outline: none;
   }
