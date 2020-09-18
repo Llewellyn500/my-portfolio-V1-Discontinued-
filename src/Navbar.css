@@ -23,11 +23,13 @@
 .nav ul{
   float: right;
   margin-right: 20px;
+  outline: none;
 }
 .nav ul li{
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
+  outline: none;
 }
 .nav ul li a{
   color: white;
@@ -36,6 +38,7 @@
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
+  outline: none;
 }
 a:hover{
   background: #2196F3;
@@ -50,6 +53,7 @@ a:hover{
   cursor: pointer;
   transition: 0.5s;
   display: none;
+  outline: none;
 }
 .btn:hover {
  color: #2196F3; 
@@ -65,9 +69,11 @@ a:hover{
     object-fit: contain;
     top: 4px;
     background-color: transparent;
+    outline: none;
   }
   .nav ul li a{
     font-size: 16px;
+    outline: none;
   }
 }
 @media (max-width: 858px){
@@ -76,6 +82,7 @@ a:hover{
   }
 #check:checked ~ .btn i:before {
     content: "\f00d";
+    outline: none;
   } 
   ul{
     position: fixed;
