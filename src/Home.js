@@ -2,16 +2,14 @@ import React from "react";
 import "./Home.css";
 import Typical from "react-typical";
 import FadeIn from "react-fade-in";
-import Photo from "./pics/profile/img1.jpg"
+import Photo from "./pics/img1.jpg";
 
 function Home() {
   return (
     <div className="home">
       <div className="home__container">
         <FadeIn>
-                  <img className="profile__photo" src={Photo}/>
-                  <img className="profile__photo" src={Photo}/>
-                  <img className="profile__photo" src={Photo}/>
+          <img className="profile__photo" src={Photo} alt=""/>
         </FadeIn> 
           <FadeIn>
           <div>
@@ -39,7 +37,5 @@ function Home() {
     </div>
     </div>
   );
-}
-}
-
+          }
 export default Home;
