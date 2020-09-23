@@ -1,33 +1,119 @@
 .home {
-  display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1500px;
-}
-.home__container{
-  color: white;
-  margin-top: 150px;
+  width: 100%;
+  padding-top: 150px;
+  margin: auto;
   font-family: monospace;
 }
-h1{
-  font-size: 30px;
-  margin-bottom: 9px;
+.banner__image {
+  z-index: -1;
+  position: absolute;
+  left: -70px;
+  width: 50%;
+  object-fit: contain;
+  top: 150px;
+  background-color: transparent;
+}
+.banner__text {
+  margin-top: 8%;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 7px 13px;
+  float: right;
+  margin-right: 20px;
+  -webkit-tap-highlight-color: transparent;
+}
+.each-fade img {
+  width: 158px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  object-fit: contain;
+}
+h1 {
+  color: white;
 }
 p {
   color: white;
+}
+strong {
+  color: #2196f3;
+}
+.name {
+  margin-bottom: 9px;
+}
+.role {
   font-size: 20px;
+  top: 0;
 }
-strong{
-  color: #2196F3;
-}
-.profile__photo {
-  width: 200px;
-  object-fit: contain;
-  margin-bottom: 19px;
-  box-shadow: 5px 5px #2196f3;
+.typing {
+  color: #2196f3;
 }
 
-.typing {
-  color: #2196F3;
+/* Responsivness  code chanhe code inside the media query but not the size of them*/
+@media (max-width: 952px) {
+  .banner__image {
+    z-index: -1;
+    position: absolute;
+    left: -70px;
+    width: 50%;
+    object-fit: contain;
+    top: 150px;
+    margin-top: 0;
+    background-color: transparent;
+  }
+  .each-fade img {
+    width: 162px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    object-fit: contain;
+  }
+  .banner__text {
+    margin-top: 8%;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 7px 13px;
+    float: right;
+    margin-right: 20px;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@media (max-width: 858px) {
+  .home {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 150px;
+    margin: auto;
+    font-family: monospace;
+  }
+  .banner__image {
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    width: 50%;
+    object-fit: contain;
+    top: 150px;
+    background-color: transparent;
+  }
+  .banner__text {
+    margin-top: 8%;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 7px 13px;
+    float: right;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .each-fade img {
+    width: 200px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    object-fit: contain;
+  }
 }

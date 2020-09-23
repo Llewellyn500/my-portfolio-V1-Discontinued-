@@ -1,14 +1,14 @@
-import React, {useState,useEffect} from 'react';
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Home";
 import Navbar from "./Navbar";
-import './App.css';
+import "./App.css";
 
 export default function App() {
   const [isLoading, setLoading] = useState(true);
 
   function fakeRequest() {
-    return new Promise(resolve => setTimeout(() => resolve(), 2500));
+    return new Promise((resolve) => setTimeout(() => resolve(), 2500));
   }
 
   useEffect(() => {
@@ -24,7 +24,7 @@ export default function App() {
   if (isLoading) {
     return null;
   }
-  
+
   return (
     <div className="App">
       <Navbar />
