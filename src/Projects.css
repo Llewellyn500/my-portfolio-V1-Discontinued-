@@ -1,0 +1,11 @@
+.projects {
+  width: 100%;
+  padding-top: 150px;
+  margin: auto;
+  font-family: monospace;
+}
+p {
+  font-weight: 700;
+  color: white;
+  font-size: 18px;
+}

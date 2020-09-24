@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "./pics/logo.png";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -9,20 +10,29 @@ function Navbar() {
       <label for="check" class="btn">
         <i class="fas fa-bars"></i>
       </label>
-
+<Link to="/">
       <img className="logo" src={Logo} alt="My logo" />
+      </Link>
       <ul>
         <li>
-          <a href="#">Home</a>
+          <Link to="/">
+          <a>Home</a>
+          </Link>
         </li>
         <li>
-          <a href="#">About me</a>
+          <Link to="about_me">
+          <a>About me</a>
+          </Link>
         </li>
         <li>
-          <a href="#">Projects</a>
+          <Link to="projects">
+          <a>Projects</a>
+          </Link>
         </li>
         <li>
-          <a href="#">Contact Me</a>
+          <Link to="contact_me">
+          <a>Contact Me</a>
+          </Link>
         </li>
       </ul>
     </div>

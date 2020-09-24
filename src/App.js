@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Home";
 import Navbar from "./Navbar";
 import "./App.css";
+import AboutMe from "./AboutMe";
+import ContactMe from "./ContactMe";
+import Projects from "./Projects";
 
 export default function App() {
   const [isLoading, setLoading] = useState(true);
@@ -26,9 +29,30 @@ export default function App() {
   }
 
   return (
+    <Router>
     <div className="App">
+      <Switch>
+        <Route path='/about_me'>
+          <Navbar />
+          <AboutMe />
+        </Route>
+
+        <Route path='/projects'>
+          <Navbar />
+          <Projects />
+        </Route>
+
+        <Route path="/contact_me">
+          <Navbar />
+          <ContactMe />
+        </Route>
+        
+        <Route path="/">
       <Navbar />
       <Home />
+      </Route>
+      </Switch>
     </div>
+    </Router>
   );
 }
