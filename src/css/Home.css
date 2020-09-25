@@ -24,7 +24,7 @@
   -webkit-tap-highlight-color: transparent;
 }
 .each-fade img {
-  width: 158px;
+  width: 170px;
   border-top-right-radius: 35px;
   border-bottom-left-radius: 35px;
   object-fit: contain;
@@ -99,6 +99,7 @@ strong {
     background-color: transparent;
   }
   .banner__text {
+    position: static;
     margin-top: 8%;
     margin-right: auto;
     margin-left: auto;

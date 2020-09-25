@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "./css/Home.css";
 import Typical from "react-typical";
 import FadeIn from "react-fade-in";
 import { Fade } from "react-slideshow-image";
