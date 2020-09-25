@@ -1,13 +1,13 @@
 import React from "react";
-import "./css/Home.css";
+import "../css/Home.css";
 import Typical from "react-typical";
 import FadeIn from "react-fade-in";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 
-import Photo from "./pics/img1.jpg";
-import Photo2 from "./pics/img2.jpg";
-import Photo3 from "./pics/img3.jpg";
+import Photo from "../img/img1.jpg";
+import Photo2 from "../img/img2.jpg";
+import Photo3 from "../img/img3.jpg";
 
 const properties = {
   duration: 3000,

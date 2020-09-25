@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./Home";
-import Navbar from "./Navbar";
+import Home from "./pages/Home";
+import Navbar from "./components/Navbar";
 import "./css/App.css";
-import AboutMe from "./AboutMe";
-import ContactMe from "./ContactMe";
-import Projects from "./Projects";
+import AboutMe from "./pages/AboutMe";
+import ContactMe from "./pages/ContactMe";
+import Projects from "./pages/Projects";
 
 export default function App() {
   const [isLoading, setLoading] = useState(true);
