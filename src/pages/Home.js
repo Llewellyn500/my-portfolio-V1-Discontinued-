@@ -19,6 +19,7 @@ const properties = {
   pauseOnHover: true,
 };
 
+
 const Home = () => {
   return (
     <div className="home">
