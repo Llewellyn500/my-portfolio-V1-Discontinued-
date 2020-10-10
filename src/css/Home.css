@@ -1,8 +1,7 @@
 /*
-  *The Banner text aligns correctly but still has some issues
+  * The Banner text aligns correctly but still has some issues
   TODO: must fix the responsiveness of the banner
   ! Don't change anything yo will regret 
-  
 */
 .home {
   width: 100%;
@@ -36,10 +35,10 @@
   object-fit: contain;
 }
 h1 {
-  color: white;
+  color: #fff;
 }
 p {
-  color: white;
+  color: #fff;
 }
 strong {
   color: #2196f3;

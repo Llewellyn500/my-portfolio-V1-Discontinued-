@@ -1,3 +1,8 @@
+/*
+ TODO: increase the height of the nave bar background and add a nice download button to the Download resume button
+ ! Don't change anything too major or the code wont work
+*/
+
 * {
   padding: 0;
   margin: 0;
@@ -33,10 +38,10 @@
   border: 3px solid #2196f3;
   border-radius: 9px;
 }
-.nav ul .resume:hover{
+.nav ul .resume:hover {
   font-size: 18px;
-  color: white;
-  border: 3px solid white;
+  color: #fff;
+  border: 3px solid #fff;
   transition: 0.5s;
 }
 .nav ul li {
@@ -46,7 +51,7 @@
   -webkit-tap-highlight-color: transparent;
 }
 .nav ul li a {
-  color: white;
+  color: #fff;
   font-weight: 700;
   font-size: 17px;
   padding: 7px 13px;
@@ -61,7 +66,7 @@ a:hover {
 }
 .btn {
   font-size: 30px;
-  color: white;
+  color: #fff;
   float: right;
   line-height: 80px;
   margin-right: 40px;
@@ -122,10 +127,10 @@ a:hover {
     font-size: 20px;
     -webkit-tap-highlight-color: transparent;
   }
-  .nav ul .resume:hover{
+  .nav ul .resume:hover {
     font-size: 23px;
-    color: white;
-    border: 3px solid white;
+    color: #fff;
+    border: 3px solid #fff;
     transition: 0.5s;
   }
 }
