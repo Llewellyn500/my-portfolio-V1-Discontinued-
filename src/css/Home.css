@@ -49,7 +49,7 @@ strong {
   color: #2196f3;
 }
 
-/* Responsivness  code chanhe code inside the media query but not the size of them*/
+/* Responsiveness  code change code inside the media query but not the size of them*/
 @media (max-width: 952px) {
   .banner__image {
     z-index: -1;
