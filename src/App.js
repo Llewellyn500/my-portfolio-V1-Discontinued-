@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import "./css/App.css";
 import AboutMe from "./pages/AboutMe";
 import ContactMe from "./pages/ContactMe";
-import Projects from "./pages/Projects";
+import Projects from "./pages/Projects"; 
 
 export default function App() {
   const [isLoading, setLoading] = useState(true);
