@@ -34,6 +34,9 @@ function Navbar() {
           <a>Contact Me</a>
           </Link>
         </li>
+        <li>
+          <a className="resume">Download Resume</a>
+        </li>
       </ul>
     </div>
   );

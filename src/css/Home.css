@@ -13,24 +13,24 @@
 .banner__image {
   z-index: -1;
   position: absolute;
-  left: -70px;
-  width: 50%;
+  left: -28%;
+  width: 100%;
   object-fit: contain;
-  top: 150px;
+  top: 22%;
   background-color: transparent;
 }
 .banner__text {
-  margin-top: 8%;
+  margin-top: 10%;
   z-index: 1;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 20px;
   padding: 7px 13px;
   float: right;
-  margin-right: 20px;
+  margin-right: 100px;
   -webkit-tap-highlight-color: transparent;
 }
 .each-fade img {
-  width: 170px;
+  width: 240px;
   border-top-right-radius: 35px;
   border-bottom-left-radius: 35px;
   object-fit: contain;
@@ -48,7 +48,7 @@ strong {
   margin-bottom: 9px;
 }
 .role {
-  font-size: 20px;
+  font-size: 70px;
   top: 0;
 }
 .typing {
