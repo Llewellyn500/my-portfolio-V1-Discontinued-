@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import "./css/App.css";
 import AboutMe from "./pages/AboutMe";
 import ContactMe from "./pages/ContactMe";
-import Projects from "./pages/Projects"; 
+import Projects from "./pages/Projects";
 
 export default function App() {
   const [isLoading, setLoading] = useState(true);
@@ -22,6 +22,7 @@ export default function App() {
         setLoading(!isLoading);
       }
     });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (isLoading) {
@@ -30,29 +31,29 @@ export default function App() {
 
   return (
     <Router>
-    <div className="App">
-      <Switch>
-        <Route path='/about_me'>
-          <Navbar />
-          <AboutMe />
-        </Route>
+      <div className="App">
+        <Switch>
+          <Route path="/about_me">
+            <Navbar />
+            <AboutMe />
+          </Route>
 
-        <Route path='/projects'>
-          <Navbar />
-          <Projects />
-        </Route>
+          <Route path="/projects">
+            <Navbar />
+            <Projects />
+          </Route>
 
-        <Route path="/contact_me">
-          <Navbar />
-          <ContactMe />
-        </Route>
-        
-        <Route path="/">
-      <Navbar />
-      <Home />
-      </Route>
-      </Switch>
-    </div>
+          <Route path="/contact_me">
+            <Navbar />
+            <ContactMe />
+          </Route>
+
+          <Route path="/">
+            <Navbar />
+            <Home />
+          </Route>
+        </Switch>
+      </div>
     </Router>
   );
 }
