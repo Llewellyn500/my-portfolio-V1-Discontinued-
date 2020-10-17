@@ -1,10 +1,12 @@
 import React from "react";
-import "../css/Home.css";
 import Typical from "react-typical";
 import FadeIn from "react-fade-in";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 
+import "../css/Home.css";
+
+//TODO: Change the images and add a few more.
 import Photo from "../img/img1.jpg";
 import Photo2 from "../img/img2.jpg";
 import Photo3 from "../img/img3.jpg";
@@ -18,7 +20,6 @@ const properties = {
   autoplay: true,
   pauseOnHover: true,
 };
-
 
 const Home = () => {
   return (
